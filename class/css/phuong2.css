@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content:" ";
+  clear: both;
+  display: table;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  background-color: #350a21;
+}
+.banner img{
+  margin: 20px auto;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #b85797;
+  margin : 5px 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav ul li a {
+  display: block;
+  list-style: none;
+  padding: 0 10px;
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 50px;
+}
+.nav ul li a:hover{
+  background-color: #350a21;
+}
+.content{
+  width: 100%;
+  height:500px;
+}
+.left{
+  width: 75%;
+  text-align: center;
+  float:left;
+}
+.top{
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  
+}
+.top h3{
+  margin: 10px;
+  color:fuchsia;
+}
+.san_pham{
+  width: 100%;
+}
+.box{
+  margin: 0 -10px;
+}
+.box1{
+  margin: 0 10px;
+  width: calc(33.33% - 20px);
+  float: left;
+}
+.product{
+  border: 1px solid gray;
+  line-height: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.product img{
+ margin: 10px;
+}
+.product .text{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+.product p{
+  color:darkmagenta;
+}
+.product a{
+  background-color: #350a21;
+  color:aliceblue;
+  padding:5px 15px;
+  text-decoration: none;
+  
+}
+.product a:hover{
+  text-decoration: underline;
+}
+.btn {
+  margin-bottom: 10px;
+}
+
+.bottom{
+  width: 100%;
+  margin: 10px 0;
+}
+.bottom img{
+  width: 25%;
+  float:left;
+}
+.bottom .content_right{
+  margin: 0 10px;
+  width: calc(75% - 20px);
+  float: right;
+  text-align: left;
+
+}
+.content_right h3{
+  color:blue;
+}
+.content_right p{
+  text-align:justify;
+  margin-top: 5px;
+}
+
+.right{
+  margin-left: 10px;
+  width: calc(25% - 10px);
+  float:right;
+  background-color: #fae8f4;
+  height: 100%;
+  
+}
+.right form{
+  margin-left:10px;
+}
+form h3{
+  /* line-height: 50px; */
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+input{
+  width: 98%;
+  padding: 7px 15px;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+form button{
+  margin-top: 10px;
+  margin-left:30%;
+  padding: 5px 15px;
+  background-color:black;
+  color:aliceblue;
+  border: none;
+
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  line-height: 70px;
+  color:aliceblue;
+  background-color: #350a21;
+  clear: both;
+}

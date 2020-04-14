@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 980px;
+  margin: 0 auto;
+}
+.logo{
+  width: 100%;
+  text-align: center;
+  background-color: #272f54;
+}
+.logo img{
+  margin: 10px auto;
+}

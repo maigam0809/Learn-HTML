@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #3498db;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  right:50%;
+  transform: translate(-50%,50%);
+}
