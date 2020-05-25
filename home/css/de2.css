@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container{
   width: 960px;
   margin: 0 auto;
@@ -11,8 +12,7 @@
 }
 .banner{
   width: 100%;
-  
-  background-image: url(../image/tainguyen/banner.jpg);
+  background-image: url(../image/images/banner.jpg);
   position: relative;
 }
 

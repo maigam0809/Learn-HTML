@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 2188px;
+  height: 1155px;
+  left: -148px;
+  top: -94px;
+}
+
+.logo{
+  position: absolute;
+  width: 191.82px;
+  height: 65px;
+  left: 283px;
+  top: 31px;
+}
+
+.button{
+  position: absolute;
+  visibility: hidden;
+  width: 132px;
+  height: 50px;
+  left: 1621px;
+  top: 41px;
+}
+
+.button ul{
+  display: flex;
+}
+
+.button ul li a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+}

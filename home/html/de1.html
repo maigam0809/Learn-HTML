@@ -10,70 +10,98 @@
 </head>
 
 <body>
+  <!-- wrapper start -->
+  <div class="wrapper">
 
-  <div class="container">
+    <!-- logo start -->
     <div class="logo">
-      <img src="../image/img/logo.jpg" alt="">
+      <img src="../image/img/logo.jpg" alt="" class="img__logo">
     </div>
-    <div class="menu">
-      <ul>
-        <li><a href="">Điện thoại</a></li>
-        <li><a href="">Table</a></li>
-        <li><a href="">Phụ Kiện</a></li>
-        <li><a href="">Sửa chữa</a></li>
-        <li><a href="">Tin tức</a></li>
+    <!-- logo end -->
+
+    <!-- nav start -->
+    <div class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="item__link">Điện thoại</a></li>
+        <li class="nav__item"><a href="#" class="item__link">Talte</a></li>
+        <li class="nav__item"><a href="#" class="item__link">Phụ kiện</a></li>
+        <li class="nav__item"><a href="#" class="item__link">Sửa chữa</a></li>
+        <li class="nav__item"><a href="#" class="item__link">Tin tức</a></li>
       </ul>
     </div>
-    <div class="content">
-      <div class="content__left">
-        <div class="top">
-          <h3 title="Đây là thẻ tiêu đề">Sản Phẩm Bán Chạy</h3>
+    <!-- nav end -->
+
+    <!-- container start -->
+    <div class="container">
+
+      <!-- container__left start -->
+      <div class="container__left">
+        <div class="container__left-top">
+          <h3 class="item__text1">
+            Sản phẩm bán chạy
+          </h3>
         </div>
-        <div class="bottom">
-          <div class="box clearfix">
+        <div class="container__bottom">
+          <div class="box">
 
-            <div class="box1">
-              <div class="product">
-                <img src="../image/img/iphone-6s.jpg" alt="">
-                <h3>Iphone 6S</h3>
-                <div class="san_pham" style="color:red">16.300.000 đ <del style="color: black">11.299.000 đ</del>
-                </div>
+            <div class="box__item">
+              <img src="../image/img/iphone-6s.jpg" alt="" class="image__brand">
+              <h3 class="item__text">Iphone 6S</h3>
+              <div class="price">
+                <del style="color:red">16.000.000 đ</del>
+                11.990.000 đ
+              </div>
+              <div class="btn">
+                <h3><a href="#" class="price__link">Mua</a></h3>
               </div>
             </div>
 
-            <div class="box1">
-              <div class="product">
-                <img src="../image/img/galaxy-s6.jpg" alt="">
-                <h3>Galaxy S6</h3>
-                <div class="san_pham">13.600.000 đ</div>
+            <div class="box__item">
+              <img src="../image/img/galaxy-s6.jpg" alt="" class="image__brand">
+              <h3 class="item__text">Galaxy S6</h3>
+              <div class="price">
+                13.690.000 đ
+              </div>
+              <div class="btn">
+                <h3><a href="#" class="price__link">Mua</a></h3>
               </div>
             </div>
 
-            <div class="box1">
-              <div class="product">
-                <img src="../image/img/lg-v20.jpg" alt="">
-                <h3>Iphone 6</h3>
-                <div class="san_pham">12.000.000 đ </div>
+            <div class="box__item">
+              <img src="../image/img/lg-v20.jpg" alt="" class="image__brand">
+              <h3 class="item__text">Iphone 6</h3>
+              <div class="price">
+                12.990.000 đ
+              </div>
+              <div class="btn">
+                <h3><a href="#" class="price__link">Mua</a></h3>
               </div>
             </div>
 
           </div>
         </div>
       </div>
-    <div class="content__right">
-      <h3>Tìm kiếm</h3>
-      <input type="text" placeholder="Tìm kiếm......">
-      <button>Tìm kiếm</button>
+      <!-- container__left end -->
+
+      <!-- container__right start -->
+      <div class="container__right">
+        <div class="container__right-iput">
+          <h3>Tìm kiếm sản phẩm</h3>
+          <input type="text" name="" class="iput" placeholder="Tên sản phẩm... " required autofocus>
+          <button type="submit">Tìm</button>
+        </div>
+      </div>
+      <!-- container__right end -->
 
     </div>
+    <!-- container end -->
 
+    <div class="footer">
+      MAI HỒNG GẤM - DESIGN WEB
+    </div>
 
   </div>
-  <div class="footer">
-    &copyright; Design by Mai Hồng Gấm
-  </div>
-  </div>
-
+  <!-- wrapper end -->
 </body>
 
 </html>
