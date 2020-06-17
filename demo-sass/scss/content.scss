@@ -1,0 +1,70 @@
+.content {
+  display: block;
+  margin-top: 10px;
+}
+
+.hello {
+  background: #eee;
+}
+
+.gamngo{
+  background-attachment: fixed;
+}
+
+.gamngo2 {
+  color: red($color: #000000);
+}
+
+.gamngo3 {
+  color: red;
+}
+
+.gamngo4{
+  color: blue($color: #000000);
+  .nest {
+    border: 1px;
+  }
+}
+
+.item {
+  color: red;
+  &.price1{
+    font-size: 14px;
+  }
+
+  &.price2{
+    font-size: 20px;
+  }
+}
+
+// ke thua
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+%boxes {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 16px;
+}
+
+.boxes-red {
+  @extend %boxes;
+  border-radius: 8px;
+  background: red;
+}
+
+.boxes-blue {
+  @extend %boxes;
+  border-radius: 8px;
+  background: blue;
+}
+
+.boxes-green {
+  @extend %boxes;
+  background: green;
+}
+

@@ -1,0 +1,33 @@
+.footer{
+  margin-top: 10px;
+  background: blue($color: #000000);
+}
+
+// mixin khong co bien
+@mixin block {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 16px;
+}
+
+.box-link {
+  @include block();
+  border-radius: 8px;
+}
+
+.box-link2 {
+  @include block();
+  border-radius: 8px;
+}
+
+// mixin co bien
+@mixin blockP($size) {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: $size;
+}
+.box { 
+  @include blockP(24px); 
+}

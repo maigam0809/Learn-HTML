@@ -1,0 +1,51 @@
+.header {
+  // css header
+  color: red($color: #000000);
+
+  &__title {
+    // css header title
+    font-size: 15px;
+
+    &-red {
+      color: red;
+    }
+  }
+
+  &__content {
+    margin: 10px;
+  }
+}
+
+// &. dung cho cac phan tu cung cap
+
+.nav {
+  &.nav-active {
+    display: block;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .menu {
+    display: block;
+    padding: 0 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    li {
+      display: block;
+      padding: 10px 20px;
+      background: #fff;
+      &:hover{
+        color: red;
+        background: saddlebrown;
+      }
+    }
+  }
+}

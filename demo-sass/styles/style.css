@@ -1,0 +1,128 @@
+.header {
+  color: 0;
+}
+.header__title {
+  font-size: 15px;
+}
+.header__title-red {
+  color: red;
+}
+.header__content {
+  margin: 10px;
+}
+
+.nav.nav-active {
+  display: block;
+}
+.nav .logo {
+  width: 150px;
+}
+.nav .menu {
+  display: block;
+  padding: 0 10px;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav ul li {
+  display: block;
+  padding: 10px 20px;
+  background: #fff;
+}
+.nav ul li:hover {
+  color: red;
+  background: saddlebrown;
+}
+
+.content {
+  display: block;
+  margin-top: 10px;
+}
+
+.hello {
+  background: #eee;
+}
+
+.gamngo {
+  background-attachment: fixed;
+}
+
+.gamngo2 {
+  color: 0;
+}
+
+.gamngo3 {
+  color: red;
+}
+
+.gamngo4 {
+  color: 0;
+}
+.gamngo4 .nest {
+  border: 1px;
+}
+
+.item {
+  color: red;
+}
+.item.price1 {
+  font-size: 14px;
+}
+.item.price2 {
+  font-size: 20px;
+}
+
+.boxes-green, .boxes-blue, .boxes-red {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 16px;
+}
+
+.boxes-red {
+  border-radius: 8px;
+  background: red;
+}
+
+.boxes-blue {
+  border-radius: 8px;
+  background: blue;
+}
+
+.boxes-green {
+  background: green;
+}
+
+.footer {
+  margin-top: 10px;
+  background: 0;
+}
+
+.box-link {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.box-link2 {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.box {
+  display: block;
+  color: #222;
+  background: #ddd;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
